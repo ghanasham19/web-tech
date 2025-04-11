@@ -1,0 +1,699 @@
+<html>
+
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* header */
+        #header {
+            display: flex;
+            height: 100vh;
+        }
+
+        #first_left {
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            margin-top: 4.9375rem;
+            margin-left: 8.75rem;
+        }
+
+        #fisrt_ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .fisrt_li {
+            margin-left: 3.125rem;
+            color: gray;
+            font-size: 1.125rem;
+        }
+
+
+        #second_h1 {
+            width: 45%;
+            margin-left: 8.75rem;
+            margin-top: 8.125rem;
+            font-size: 3.75rem;
+        }
+
+        #third_p {
+            margin-top: 1.6875rem;
+            margin-left: 8.75rem;
+            width: 40%;
+            font-size: 1.25rem;
+            color: gray;
+        }
+
+        #right_div {
+            height: 100vh;
+            width: 42.8125rem;
+            background-image: url(./Photo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #forth_left {
+            width: 35%;
+            display: flex;
+            margin-left: 7.1875rem;
+            margin-top: 8.125rem;
+            justify-content: space-between;
+        }
+
+
+        #forth_circle1 {
+
+            display: flex;
+            height: 3.75em;
+            width: 10.625em;
+            margin-left: 1.25rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            font-size: 1rem;
+            background-color: #25DAC5;
+
+        }
+
+        #forth_circle2 {
+
+            display: flex;
+            height: 3.75em;
+            width: 10.625em;
+            margin-left: 1.25rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            font-size: 1rem;
+            background-color: #e2f9f6;
+
+        }
+
+
+
+        #fifth_p {
+            color: gray;
+            margin-left: 8.75rem;
+            margin-top: 1.125rem;
+            font-size: 1.125rem;
+        }
+
+
+
+
+        /* feature */
+
+        #feature {
+            height: 100vh;
+            background-image: url(./baground2.png);
+            background-size: cover;
+            padding-top: 6.25rem;
+        }
+
+        #feature_one {
+            width: 40.625rem;
+            margin-left: 30.625rem;
+        }
+
+        #one_heading {
+            margin-left: 15.9375rem;
+            font-size: 1.4375rem;
+            color: #FFFFFF;
+        }
+
+        #one_about {
+            margin-left: 4.375rem;
+            margin-top: 1.25rem;
+            font-size: 1.25rem;
+            color: #f6e2e2;
+        }
+
+        #feature_two {
+            height: 28.75rem;
+            width: 73.125rem;
+            margin-top: 3.125rem;
+            margin-left: 16.875rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #feature_box-1 {
+            height: 28.75rem;
+            width: 23.125rem;
+            border: 0.0625rem solid #FFFFFF;
+            border-radius: 0.625rem;
+        }
+
+        #feature_box-2 {
+            height: 28.75rem;
+            width: 23.125rem;
+            border: 0.0625rem solid #FFFFFF;
+            border-radius: 0.625rem;
+        }
+
+        #feature_box-3 {
+            height: 28.75rem;
+            width: 23.125rem;
+            border: 0.0625rem solid #FFFFFF;
+            border-radius: 0.625rem;
+        }
+
+        #feature_box-1_logo {
+            height: 3.25rem;
+            width: 3.125rem;
+            background-image: url(./fa-flash.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-top: 3.75rem;
+            margin-left: 10.8125rem;
+        }
+
+        #feature_box-1_logo_name {
+            font-size: 1.6rem;
+            color: white;
+            margin-left: 8.125rem;
+            margin-top: 1.25rem;
+        }
+
+        #feature_box-1_about {
+            font-size: 1.3125rem;
+            color: rgb(228, 212, 212);
+            margin-left: 2.8125rem;
+            margin-right: 1.25rem;
+            margin-top: 1.5625rem;
+        }
+
+        #feature_box-1_button {
+            display: flex;
+            height: 3.125rem;
+            width: 9.375rem;
+            background-color: #E93A7D;
+            border-radius: 6.25rem;
+            justify-content: center;
+            align-items: center;
+            margin-left: 6.875rem;
+            margin-top: 3.75rem;
+        }
+
+        #feature_box-1_button_p {
+            color: white;
+            font-size: 1.125rem;
+        }
+
+        #feature_box-2_logo {
+            height: 3.25rem;
+            width: 3.125rem;
+            background-image: url(./fa-random.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-top: 3.75rem;
+            margin-left: 10.3125rem;
+        }
+
+        #feature_box-2_logo_name {
+            font-size: 1.6rem;
+            color: white;
+            margin-left: 8.125rem;
+            margin-top: 1.25rem;
+        }
+
+        #feature_box-2_about {
+            font-size: 1.3125rem;
+            color: rgb(228, 212, 212);
+            margin-left: 2.8125rem;
+            margin-right: 1.25rem;
+            margin-top: 1.5625rem;
+        }
+
+        #feature_box-2_button {
+            display: flex;
+            height: 3.125rem;
+            width: 9.375rem;
+            background-color: #E93A7D;
+            border-radius: 6.25rem;
+            justify-content: center;
+            align-items: center;
+            margin-left: 6.875rem;
+            margin-top: 3.75rem;
+        }
+
+        #feature_box-2_button_p {
+            color: white;
+            font-size: 1.125rem;
+        }
+
+        #feature_box-3_logo {
+            height: 3.25rem;
+            width: 3.125rem;
+            background-image: url(./fa-play-circle.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-top: 3.75rem;
+            margin-left: 10.375rem;
+        }
+
+        #feature_box-3_logo_name {
+            font-size: 1.6rem;
+            color: white;
+            margin-left: 8.125rem;
+            margin-top: 1.25rem;
+        }
+
+        #feature_box-3_about {
+            font-size: 1.3125rem;
+            color: rgb(228, 212, 212);
+            margin-left: 2.8125rem;
+            margin-right: 1.25rem;
+            margin-top: 1.5625rem;
+        }
+
+        #feature_box-3_button {
+            display: flex;
+            height: 3.125rem;
+            width: 9.375rem;
+            background-color: #E93A7D;
+            border-radius: 6.25rem;
+            justify-content: center;
+            align-items: center;
+            margin-left: 6.875rem;
+            margin-top: 3.125rem;
+        }
+
+        #feature_box-3_button_p {
+            color: white;
+            font-size: 1.125rem;
+        }
+
+        #team_1 {
+            height: 100vh;
+        }
+
+        #team_one_h {
+            padding-top: 6.25rem;
+            padding-left: 40rem;
+            font-size: 2.8125rem;
+        }
+
+        #team_two_p {
+            padding-top: 1.875rem;
+            width: 45.625rem;
+            padding-left: 30rem;
+            font-size: 1.3125rem;
+            color: gray;
+        }
+
+        #team_thrree {
+            display: flex;
+            height: 3.125rem;
+            width: 12.5rem;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            border-radius: 6.25rem;
+            border: 0.0625rem solid rgb(223, 212, 212);
+            margin-top: 3.125rem;
+            margin-left: 45.625rem;
+        }
+
+        #team_four {
+            display: flex;
+            margin-top: 4.375rem;
+            height: 23.125rem;
+            width: 73.125rem;
+            gap: 1.875rem;
+            margin-left: 15.625rem;
+        }
+
+        #team_four_one {
+            height: 23.125rem;
+            width: 23.125rem;
+            border: 0.0625rem solid black;
+        }
+
+        #team_four_two {
+            height: 23.125rem;
+            width: 23.125rem;
+            border: 0.0625rem solid black;
+        }
+
+        #team_four_three {
+            height: 23.125rem;
+            width: 23.125rem;
+            border: 0.0625rem solid black;
+        }
+
+        #profile1 {
+            height: 8.125rem;
+            width: 8.125rem;
+            background-image: url(./Mask.png);
+            background-size: cover;
+            margin-top: 2.5rem;
+            margin-left: 7.8125rem;
+        }
+
+        #name1 {
+            margin-top: 2.0625rem;
+            margin-left: 6.875rem;
+        }
+
+        #about1 {
+            margin-top: 1.25rem;
+            margin-left: 8.4375rem;
+            color: gray;
+        }
+
+        #meida1 {
+            display: flex;
+            margin-top: 2.6875rem;
+        }
+
+        #twitter {
+            height: 3.5625rem;
+            width: 7.5rem;
+            border: 0.0625rem solid rgb(180, 171, 171);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #twitter_img {
+            object-fit: cover;
+            height: 1.25rem;
+        }
+
+        #facebook {
+            height: 3.5625rem;
+            width: 7.6875rem;
+            border: 0.0625rem solid rgb(180, 171, 171);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #facebook_img {
+            object-fit: cover;
+            height: 1.375rem;
+        }
+
+        #footboll {
+            height: 3.5625rem;
+            width: 7.5rem;
+            border: 0.0625rem solid rgb(180, 171, 171);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #footboll_img {
+            object-fit: cover;
+            height: 1.4375rem;
+        }
+
+        #profile2 {
+            height: 8.125rem;
+            width: 8.125rem;
+            background-image: url(./Mask\ \(1\).png);
+            background-size: cover;
+            margin-top: 2.5rem;
+            margin-left: 7.8125rem;
+        }
+
+        #name2 {
+            margin-top: 2.0625rem;
+            margin-left: 6.875rem;
+        }
+
+        #about2 {
+            margin-top: 1.25rem;
+            margin-left: 8.4375rem;
+            color: gray;
+        }
+
+        #meida2 {
+            display: flex;
+            margin-top: 2.6875rem;
+        }
+
+        #profile3 {
+            height: 8.125rem;
+            width: 8.125rem;
+            background-image: url(./Mask\ \(2\).png);
+            background-size: cover;
+            margin-top: 2.5rem;
+            margin-left: 7.8125rem;
+        }
+
+        #name3 {
+            margin-top: 2.0625rem;
+            margin-left: 8.3125rem;
+        }
+
+        #about3 {
+            margin-top: 1.25rem;
+            margin-left: 7.3125rem;
+            color: gray;
+        }
+
+        #meida3 {
+            display: flex;
+            margin-top: 2.6875rem;
+        }
+
+        #footer_12 {
+            height: 100vh;
+        }
+
+        #fotter_main {
+            height: 16.25rem;
+            background-color: #2F1893;
+        }
+
+        #footer_one_list {
+            list-style: none;
+            display: flex;
+            padding-top: 4.3125rem;
+            justify-content: center;
+            gap: 2.1875rem;
+            color: rgb(245, 234, 234);
+        }
+
+        #footer_two {
+            margin-top: 3.75rem;
+            margin-left: 43.75rem;
+            color: rgb(245, 234, 234);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header_7 -->
+    <div id="header">
+        <div id="left_div">
+            <div id="first_left">
+                <h2>Startup 3</h2>
+                <ul id="fisrt_ul">
+                    <li class="fisrt_li">Pricing</li>
+                    <li class="fisrt_li">About</li>
+                </ul>
+
+            </div>
+            <div id="secons_left">
+                <h1 id="second_h1">Great tool to boost your startup</h1>
+            </div>
+            <div id="third_left">
+                <p id="third_p">we made it so beutiful and simple. it combines landings,pages,blogs and shop screens. it
+                    is definitely the tool you need in you collection</p>
+            </div>
+            <div id="forth_left">
+                <div id="forth_circle1">
+                    <h3>Get Started</h3>
+                </div>
+                <div id="forth_circle2">
+                    <h3>Learn More</h3>
+                </div>
+            </div>
+            <div id="Fifth_left">
+                <p id="fifth_p">By signing up,you agree to the Terms of Service</p>
+            </div>
+        </div>
+        <div id="right_div">
+
+        </div>
+
+    </div>
+
+
+    <!-- feature_4 -->
+    <div id="feature">
+        <div id="feature_one">
+            <div id="one_heading">
+                <h1>Features</h1>
+            </div>
+            <div id="one_about">
+                <p>We have creadted a new product that will help designers, developers and companies create website for
+                    their startups quickly and easily</p>
+            </div>
+
+        </div>
+        <div id="feature_two">
+            <div id="feature_box-1">
+                <div id="feature_box-1_logo"></div>
+                <div id="feature_box-1_logo_name">Easy to use</div>
+                <div id="feature_box-1_about">
+                    To get started, you selec the desired sample and base the entire website on it. it's the simple!
+                </div>
+                <div id="feature_box-1_button">
+                    <p id="feature_box-1_button_p">Learn More</p>
+                </div>
+            </div>
+
+
+            <div id="feature_box-2">
+                <div id="feature_box-2_logo"></div>
+                <div id="feature_box-2_logo_name">Easy to use</div>
+                <div id="feature_box-2_about">
+                    You can decide whether to create your site using UI kit blocks or samples. The blocks can merge
+                    togather in various combinations.
+                </div>
+                <div id="feature_box-2_button">
+                    <p id="feature_box-2_button_p">Learn More</p>
+                </div>
+            </div>
+
+
+            <div id="feature_box-3">
+                <div id="feature_box-3_logo"></div>
+                <div id="feature_box-3_logo_name">Easy to use</div>
+                <div id="feature_box-3_about">
+                    Samples will show you the feling on how to pllay around using the components in the website building
+                    process.
+                </div>
+                <div id="feature_box-3_button">
+                    <p id="feature_box-3_button_p">Learn More</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- team_1 -->
+
+    <div id="team_1">
+        <div id="team_one">
+            <h1 id="team_one_h">Our Awesome Team</h1>
+        </div>
+        <div id="team_two">
+            <p id="team_two_p">We have created a new product thst will help designers, developers and companies create
+                website for their startups quickly and easily and enjoy your day with us</p>
+        </div>
+        <div id="team_thrree">
+            <p id="theam_thrree_p">
+                Enjoy Our Team
+            </p>
+        </div>
+
+        <div id="team_four">
+            <div id="team_four_one">
+                <div id="profile1"></div>
+                <div id="name1">
+                    <h2>Vanessa Laird</h2>
+                </div>
+                <div id="about1">
+                    <p>UI DESIGNER</p>
+                </div>
+                <div id="meida1">
+                    <div id="twitter">
+                        <img id="twitter_img" src="./fa-twitter.png" alt="">
+                    </div>
+                    <div id="facebook">
+                        <img id="facebook_img" src="./fa-facebook-square.png" alt="">
+                    </div>
+                    <div id="footboll">
+                        <img id="footboll_img" src="./fa-dribbble.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div id="team_four_two">
+                <div id="profile2"></div>
+                <div id="name2">
+                    <h2>Mason Campbell</h2>
+                </div>
+                <div id="about2">
+                    <p>UI DESIGNER</p>
+                </div>
+                <div id="meida2">
+                    <div id="twitter">
+                        <img id="twitter_img" src="./fa-twitter.png" alt="">
+                    </div>
+                    <div id="facebook">
+                        <img id="facebook_img" src="./fa-facebook-square.png" alt="">
+                    </div>
+                    <div id="footboll">
+                        <img id="footboll_img" src="./fa-dribbble.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="team_four_three">
+                <div id="profile3"></div>
+                <div id="name3">
+                    <h2>Irea Evans</h2>
+                </div>
+                <div id="about3">
+                    <p>CLIENT MANAGER</p>
+                </div>
+                <div id="meida3">
+                    <div id="twitter">
+                        <img id="twitter_img" src="./fa-twitter.png" alt="">
+                    </div>
+                    <div id="facebook">
+                        <img id="facebook_img" src="./fa-facebook-square.png" alt="">
+                    </div>
+                    <div id="footboll">
+                        <img id="footboll_img" src="./fa-dribbble.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- footer_12 -->
+
+    <div id="footer_12">
+        <div id="fotter_main">
+            <div id="footer_one">
+                <ul id="footer_one_list">
+                    <li>Portfolio</li>
+                    <li>How it Works</li>
+                    <li> Pricing</li>
+                    <li> About</li>
+                    <li> Contacts</li>
+                </ul>
+            </div>
+            <div id="footer_two">
+                <p>@ 2016 Designmode. All rights reserved</p>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
